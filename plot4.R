@@ -30,7 +30,7 @@ plot3<-function (){
 	with(table,lines(date_time,Sub_metering_1))
 	with(table,lines(date_time,Sub_metering_2,col="red"))
 	with(table,lines(date_time,Sub_metering_3, col="blue"))
-	legend("topright", lty = 1, bty="n", col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+	legend("topright", lty = 1, bty="n", col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),cex=0.5)
 }
 
 ##Plot a graph of global active power vs time
